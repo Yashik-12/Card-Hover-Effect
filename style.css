@@ -238,7 +238,6 @@ ul { display: flex; }
     flex-direction: column;
     text-align: center;
     cursor: pointer;
-    box-shadow: #808080;
 }
 
 .card::before, .card::after {
@@ -246,7 +245,7 @@ ul { display: flex; }
     width: 100%;
     height: 40%;
     position: absolute;
-    background: #000;
+    background-color: #643939;
     z-index: -10;
     content: '';
     transition: all .4s;
